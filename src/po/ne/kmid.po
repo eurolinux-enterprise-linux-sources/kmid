@@ -1,0 +1,905 @@
+# translation of kmid.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmid\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-10-11 05:45+0200\n"
+"PO-Revision-Date: 2007-01-21 12:46+0545\n"
+"Last-Translator: Mahesh Subedi <submanesh@gmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n !=1\n"
+
+#: channel.cpp:97
+#, kde-format
+msgid "Channel %1"
+msgstr "च्यानल %1"
+
+#: channelcfgdlg.cpp:19
+msgid "Configure Channel View"
+msgstr "च्यानल दृश्य कन्फिगर गर्नुहोस्"
+
+#: channelcfgdlg.cpp:28
+msgid "Choose Look Mode"
+msgstr "हेर्ने मोड रोज्नुहोस्"
+
+#: channelcfgdlg.cpp:30
+msgid "3D look"
+msgstr "त्रि-आयामिक हेराइ"
+
+#: channelcfgdlg.cpp:32
+msgid "3D - filled"
+msgstr "त्रि-आयमिक - भरिएको"
+
+#: channelview.cpp:41
+msgid "Channel View"
+msgstr "च्यानल दृश्य"
+
+#: collectdlg.cpp:49
+msgid "Collections Manager"
+msgstr "सङ्कलन प्रबन्धक"
+
+#: collectdlg.cpp:57
+msgid "Available collections:"
+msgstr "उपलब्ध सङ्कलन:"
+
+#: collectdlg.cpp:77
+msgid "Songs in selected collection:"
+msgstr "चयन गरिएको सङ्कलनमा गीत:"
+
+#: collectdlg.cpp:91
+msgid "&New..."
+msgstr "नयाँ..."
+
+#: collectdlg.cpp:95
+msgid "&Copy..."
+msgstr "प्रतिलिपि..."
+
+#: collectdlg.cpp:99
+#, fuzzy
+msgid "Delete"
+msgstr "सेलेस्टा"
+
+#: collectdlg.cpp:104
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#: collectdlg.cpp:108
+msgid "&Remove"
+msgstr ""
+
+#: collectdlg.cpp:164
+msgid "New Collection"
+msgstr "नयाँ सङ्कलन"
+
+#: collectdlg.cpp:165
+msgid "Enter the name of the new collection:"
+msgstr "नयाँ सङ्कलनको नाम प्रविष्ट गर्नुहोस्:"
+
+#: collectdlg.cpp:173 collectdlg.cpp:199 collectdlg.cpp:241
+#, kde-format
+msgid "The name '%1' is already used"
+msgstr "'%1' नाम पहिल्यै प्रयोग गरिएको छ"
+
+#: collectdlg.cpp:190
+msgid "Copy Collection"
+msgstr "प्रतिलिपि सङ्कलन"
+
+#: collectdlg.cpp:191
+msgid "Enter the name of the copy collection:"
+msgstr "प्रतिलिपि सङ्कलनको नाम प्रविष्ट गर्नुहोस्:"
+
+#: collectdlg.cpp:233
+msgid "Change Collection Name"
+msgstr "सङ्कलन नाम परिवर्तन गर्नुहोस्"
+
+#: collectdlg.cpp:234
+msgid "Enter the name of the selected collection:"
+msgstr "चयन गरिएको सङ्कलनको नाम प्रविष्ट गर्नुहोस्:"
+
+#: kmid_part.cpp:63
+msgid "KMid"
+msgstr ""
+
+#: kmid_part.cpp:64
+msgid "MIDI/Karaoke file player"
+msgstr "मिडी/काराओके फाइल प्लेयर"
+
+#: kmid_part.cpp:65
+msgid "(c) 1997,98,99,2000, Antonio Larrosa Jimenez"
+msgstr "(c) 1997,98,99,2000, Antonio Larrosa Jimenez"
+
+#: kmid_part.cpp:67
+#, fuzzy
+msgid "Antonio Larrosa Jimenez"
+msgstr "(c) 1997,98,99,2000, Antonio Larrosa Jimenez"
+
+#: kmid_part.cpp:68
+msgid "Original Developer/Maintainer"
+msgstr "मौलिक विकासकर्ता/मर्मतकर्ता"
+
+#: kmid_part.cpp:95
+msgid "Play"
+msgstr "बजाउनुहोस्"
+
+#: kmid_part.cpp:100
+#, fuzzy
+msgid "Stop"
+msgstr "रोक्नुहोस्"
+
+#: kmid_part.cpp:105
+msgid "Backward"
+msgstr "पछिल्तिर"
+
+#: kmid_part.cpp:110 kmidframe.cpp:136
+msgid "Forward"
+msgstr "पठाउनुहोस्"
+
+#: kmidclient.cpp:117
+msgid "Tempo:"
+msgstr "टेम्पो:"
+
+#: kmidclient.cpp:139
+msgid "Default"
+msgstr ""
+
+#: kmidclient.cpp:315
+#, kde-format
+msgid "The file %1 does not exist or cannot be opened."
+msgstr "%1 फाइल अवस्थित हुँदैन वा खोल्न सकिँदैन ।"
+
+#: kmidclient.cpp:318
+#, kde-format
+msgid "The file %1 is not a MIDI file."
+msgstr "%1 फाइल मिडी फाइल होइन ।"
+
+#: kmidclient.cpp:320
+msgid ""
+"Ticks per quarter note is negative. Please send this file to larrosa@kde.org"
+msgstr ""
+"प्रति क्वारटर नोट टिक्स ऋणात्मक छ । कृपया यो फाइललाई larrosa@kde.org मा पठाउनुहोस्"
+
+#: kmidclient.cpp:322
+msgid "Not enough memory."
+msgstr "स्मृति पर्याप्त छैन"
+
+#: kmidclient.cpp:324
+msgid "This file is corrupted or not well built."
+msgstr "यो फाइल दूषित गरिएको छ वा राम्रोसँग निर्माण गरिएको छैन ।"
+
+#: kmidclient.cpp:326
+#, kde-format
+msgid "%1 is not a regular file."
+msgstr "%1 नियमित फाइल होइन ।"
+
+#: kmidclient.cpp:327
+msgid "Unknown error message"
+msgstr "अज्ञात त्रुटि सन्देश"
+
+#: kmidclient.cpp:536
+msgid "You must load a file before playing it."
+msgstr "तपाईँले यसलाई बजाउनु पहिले फाइल लोड गर्नुपर्नेछ ।"
+
+#: kmidclient.cpp:542
+msgid "A song is already being played."
+msgstr "गीत पहिल्यै बजाइएको छ ।"
+
+#: kmidclient.cpp:548
+msgid ""
+"Could not open /dev/sequencer.\n"
+"Probably there is another program using it."
+msgstr ""
+"/dev/sequencer खोल्न सकेन ।\n"
+"सम्भवत त्यहाँ अर्को कार्यक्रम कार्यक्रमले यसलाई चलाइरहेको छ ।"
+
+#: kmidframe.cpp:95
+msgid "&Save Lyrics..."
+msgstr "रचना बचत गर्नुहोस्..."
+
+#: kmidframe.cpp:101
+msgid "&Play"
+msgstr "बजाउनुहोस्"
+
+#: kmidframe.cpp:106
+msgid "P&ause"
+msgstr "पज गर्नुहोस्"
+
+#: kmidframe.cpp:111
+msgid "&Stop"
+msgstr "रोक्नुहोस्"
+
+#: kmidframe.cpp:117
+msgid "P&revious Song"
+msgstr "अघिल्लो गीत"
+
+#: kmidframe.cpp:122
+msgid "&Next Song"
+msgstr "पछिल्लो गीत"
+
+#: kmidframe.cpp:126
+msgid "&Loop"
+msgstr "दोहोर्याउनुहोस्"
+
+#: kmidframe.cpp:131
+msgid "Rewind"
+msgstr "रिवाइन्ड गर्नुहोस्"
+
+#: kmidframe.cpp:140
+msgid "&Organize..."
+msgstr "सङ्गठित पार्नुहोस्..."
+
+#: kmidframe.cpp:144
+msgid "In Order"
+msgstr "क्रमागत"
+
+#: kmidframe.cpp:145
+msgid "Shuffle"
+msgstr "अनियमित"
+
+#: kmidframe.cpp:148
+msgid "Play Order"
+msgstr "बजाउने क्रम"
+
+#: kmidframe.cpp:153
+msgid "Auto-Add to Collection"
+msgstr "सङ्कलनमा स्वत: थप्नुहोस्"
+
+#: kmidframe.cpp:157
+msgid "&General MIDI"
+msgstr "सामान्य मिडी"
+
+#: kmidframe.cpp:158
+msgid "&MT-32"
+msgstr "MT-32"
+
+#: kmidframe.cpp:161
+msgid "File Type"
+msgstr "फाइल प्रकार"
+
+#: kmidframe.cpp:166
+msgid "&Text Events"
+msgstr "पाठ घटना"
+
+#: kmidframe.cpp:167
+msgid "&Lyric Events"
+msgstr "रचना घटना"
+
+#: kmidframe.cpp:170
+msgid "Display Events"
+msgstr "घटना प्रदर्शन गर्नुहोस्"
+
+#: kmidframe.cpp:176
+msgid "Automatic Text Chooser"
+msgstr "स्वाचालित पाठ चयनकर्ता"
+
+#: kmidframe.cpp:181
+msgid "Show &Volume Bar"
+msgstr "भोल्युम बार देखाउनुहोस्"
+
+#: kmidframe.cpp:183
+msgid "Hide &Volume Bar"
+msgstr "भोल्युम बार लुकाउनुहोस्"
+
+#: kmidframe.cpp:187
+msgid "Show &Channel View"
+msgstr "च्यानल दृश्य देखाउनुहोस्"
+
+#: kmidframe.cpp:189
+msgid "Hide &Channel View"
+msgstr "च्यानल दृश्य लुकाउनुहोस्"
+
+#: kmidframe.cpp:192
+msgid "Channel View &Options..."
+msgstr "च्यानल दृश्य विकल्प..."
+
+#: kmidframe.cpp:196
+msgid "&Font Change..."
+msgstr "फन्ट परिवर्तन..."
+
+#: kmidframe.cpp:200
+msgid "MIDI &Setup..."
+msgstr "मिडी सेटअप..."
+
+#: kmidframe.cpp:309 kmidframe.cpp:573 midicfgdlg.cpp:127
+msgid "Only local files are currently supported."
+msgstr "स्थानीय फाइल मात्र हालै समर्थन गरिएको छ ।"
+
+#: kmidframe.cpp:486
+msgid ""
+"Could not open /dev/sequencer to get some info.\n"
+"Probably there is another program using it."
+msgstr ""
+"सूचना प्राप्त गर्न /dev/sequencer खोल्न सकेन ।\n"
+"सम्भवत कुनै अर्को कार्यक्रमले यसलाई प्रयोग गरिरहेको हुनुपर्दछ ।"
+
+#: kmidframe.cpp:582
+#, kde-format
+msgid ""
+"File %1 already exists\n"
+"Do you want to overwrite it?"
+msgstr ""
+"%1 फाइल पहिल्यै अवस्थित छ\n"
+"तपाईँ यसलाई अधिलेखन गर्न चाहनुहुन्छ ?"
+
+#: kmidframe.cpp:583
+msgid "Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: main.cpp:62
+msgid "File to open"
+msgstr "खोल्नका लागि फाइल"
+
+#: midicfgdlg.cpp:48
+msgid "Configure MIDI Devices"
+msgstr "मिडी यन्त्र कन्फिगर गर्नुहोस्"
+
+#: midicfgdlg.cpp:58
+msgid "Select the MIDI device you want to use:"
+msgstr "तपाईँले प्रयोग गर्न चाहनु भएको मिडी चयन गर्नुहोस्:"
+
+#: midicfgdlg.cpp:77
+msgid "Use the MIDI map:"
+msgstr "मिडी मानचित्र प्रयोग गर्नुहोस्:"
+
+#: midicfgdlg.cpp:91 midicfgdlg.cpp:102 midicfgdlg.cpp:142
+msgid "None"
+msgstr "कुनै होइन"
+
+#: midicfgdlg.cpp:98
+msgid "Browse..."
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 4
+#: rc.cpp:3
+#, fuzzy
+msgid "&File"
+msgstr "फिड्डल"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 7
+#: rc.cpp:6
+msgid "&Song"
+msgstr "गीत"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 15
+#: rc.cpp:9
+msgid "&Collections"
+msgstr "सङ्कलन"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 32
+#: rc.cpp:12
+msgid "Main Toolbar"
+msgstr ""
+
+#: rc.cpp:13
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल"
+
+#: rc.cpp:14
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Shyam krishna bal<shyamkrishna_bal@yahoo.com>"
+
+#: slman.cpp:225
+msgid "Temporary Collection"
+msgstr "अस्थायी सङ्कलन"
+
+#: instrname.i18n:6
+msgid "Acoustic Grand Piano"
+msgstr "श्रवण ग्रान्ड पियानो"
+
+#: instrname.i18n:7
+msgid "Bright Acoustic Piano"
+msgstr "चम्किलो श्रवण पियानो"
+
+#: instrname.i18n:8
+msgid "Electric Grand Piano"
+msgstr "विद्युतिय ग्रान्ड पियानो"
+
+#: instrname.i18n:9
+msgid "Honky-Tonk"
+msgstr "हङ्की-टङ्क"
+
+#: instrname.i18n:10
+msgid "Rhodes Piano"
+msgstr "रोडे पियानो"
+
+#: instrname.i18n:11
+msgid "Chorused Piano"
+msgstr "कोरस गरिएको पियानो"
+
+#: instrname.i18n:12
+msgid "Harpsichord"
+msgstr "पर्दादार वाद्ययन्त्र"
+
+#: instrname.i18n:13
+msgid "Clavinet"
+msgstr "क्लाभिनेट"
+
+#: instrname.i18n:14
+msgid "Celesta"
+msgstr "सेलेस्टा"
+
+#: instrname.i18n:15
+msgid "Glockenspiel"
+msgstr "ग्लोकेन्सपियल"
+
+#: instrname.i18n:16
+msgid "Music Box"
+msgstr "सङ्गीत बाकस"
+
+#: instrname.i18n:17
+msgid "Vibraphone"
+msgstr "भाइब्राफोन"
+
+#: instrname.i18n:18
+msgid "Marimba"
+msgstr "म्यारिमबा"
+
+#: instrname.i18n:19
+msgid "Xylophone"
+msgstr "जाइलोफोन"
+
+#: instrname.i18n:20
+msgid "Tubular Bells"
+msgstr "नलीदार घण्टी"
+
+#: instrname.i18n:21
+msgid "Dulcimer"
+msgstr "डुलसिमर"
+
+#: instrname.i18n:22
+msgid "Hammond Organ"
+msgstr "हाममन्ड ओर्ग्यान"
+
+#: instrname.i18n:23
+msgid "Percussive Organ"
+msgstr "परक्युसिभ ओर्ग्यान"
+
+#: instrname.i18n:24
+msgid "Rock Organ"
+msgstr "रक ओर्ग्यान"
+
+#: instrname.i18n:25
+msgid "Church Organ"
+msgstr "चर्च ओर्ग्यान"
+
+#: instrname.i18n:26
+msgid "Reed Organ"
+msgstr "रिड ओर्ग्यान"
+
+#: instrname.i18n:27
+msgid "Accordion"
+msgstr "एकरडियन"
+
+#: instrname.i18n:28
+msgid "Harmonica"
+msgstr "हार्मोनिका"
+
+#: instrname.i18n:29
+msgid "Tango Accordion"
+msgstr "ट्यान्गो एकरडियन"
+
+#: instrname.i18n:30
+msgid "Acoustic Guitar (Nylon)"
+msgstr "श्रवण गितार (नाइलन)"
+
+#: instrname.i18n:31
+msgid "Acoustic Guitar (Steel)"
+msgstr "श्रवण गितार (स्टिल)"
+
+#: instrname.i18n:32
+msgid "Electric Guitar (Jazz)"
+msgstr "विद्युतिय गितार (ज्याज)"
+
+#: instrname.i18n:33
+msgid "Electric Guitar (Clean)"
+msgstr "विद्युतिय गितार (क्लिन)"
+
+#: instrname.i18n:34
+msgid "Electric Guitar (Muted)"
+msgstr "विद्युतिय गितार (मौन गरिएको)"
+
+#: instrname.i18n:35
+msgid "Overdriven Guitar"
+msgstr "ओभरड्रिभन गितार"
+
+#: instrname.i18n:36
+msgid "Distortion Guitar"
+msgstr "विरूपन गितार"
+
+#: instrname.i18n:37
+msgid "Guitar Harmonics"
+msgstr "गितार हार्मोनिक"
+
+#: instrname.i18n:38
+msgid "Acoustic Bass"
+msgstr "श्रवण बास"
+
+#: instrname.i18n:39
+msgid "Electric Bass (Finger)"
+msgstr "विद्युतिय बास (फिङ्गर)"
+
+#: instrname.i18n:40
+msgid "Electric Bass (Pick)"
+msgstr "विद्युतिय बास (पिक)"
+
+#: instrname.i18n:41
+msgid "Fretless Bass"
+msgstr "क्रोधविहिन बास"
+
+#: instrname.i18n:42
+msgid "Slap Bass 1"
+msgstr "स्ल्याप बास १"
+
+#: instrname.i18n:43
+msgid "Slap Bass 2"
+msgstr "स्ल्याप बास २"
+
+#: instrname.i18n:44
+msgid "Synth Bass 1"
+msgstr "सिन्थ बास १"
+
+#: instrname.i18n:45
+msgid "Synth Bass 2"
+msgstr "सिन्थ बास २"
+
+#: instrname.i18n:46
+msgid "Violin"
+msgstr "भ्वाइलिन"
+
+#: instrname.i18n:47
+msgid "Viola"
+msgstr "भाइला"
+
+#: instrname.i18n:48
+msgid "Cello"
+msgstr "सेलो"
+
+#: instrname.i18n:49
+msgid "Contrabass"
+msgstr "कन्ट्रबास"
+
+#: instrname.i18n:50
+msgid "Tremolo Strings"
+msgstr "ट्रेमोलो स्ट्रिङ"
+
+#: instrname.i18n:51
+msgid "Pizzicato Strings"
+msgstr "पिजिकाटो स्ट्रिङ"
+
+#: instrname.i18n:52
+msgid "Orchestral Harp"
+msgstr "ओरचेस्ट्रल हार्प"
+
+#: instrname.i18n:53
+msgid "Timpani"
+msgstr "टिमपानी"
+
+#: instrname.i18n:54
+msgid "String Ensemble 1"
+msgstr "स्ट्रिङ इन्सेम्बल १"
+
+#: instrname.i18n:55
+msgid "String Ensemble 2"
+msgstr "स्ट्रिङ इन्सेम्बल २"
+
+#: instrname.i18n:56
+msgid "Synth Strings 1"
+msgstr "सिन्थ स्ट्रिङ १"
+
+#: instrname.i18n:57
+msgid "Synth Strings 2"
+msgstr "सिन्थ स्ट्रिङ २"
+
+#: instrname.i18n:58
+msgid "Choir Aahs"
+msgstr "गायक-मण्डल आह"
+
+#: instrname.i18n:59
+msgid "Voice Oohs"
+msgstr "आवाज ओह"
+
+#: instrname.i18n:60
+msgid "Synth Voice"
+msgstr "सिन्थ आवाज"
+
+#: instrname.i18n:61
+msgid "Orchestra Hit"
+msgstr "ओर्चेस्टर हिट"
+
+#: instrname.i18n:62
+msgid "Trumpet"
+msgstr "ट्रमपेट"
+
+#: instrname.i18n:63
+msgid "Trombone"
+msgstr "ट्रमबोन"
+
+#: instrname.i18n:64
+msgid "Tuba"
+msgstr "टुबा"
+
+#: instrname.i18n:65
+msgid "Muted Trumpet"
+msgstr "मौन गरिएको ट्रमपेट"
+
+#: instrname.i18n:66
+msgid "French Horn"
+msgstr "फ्रेन्च हर्न"
+
+#: instrname.i18n:67
+msgid "Brass Section"
+msgstr "ब्रास सेक्सन"
+
+#: instrname.i18n:68
+msgid "Synth Brass 1"
+msgstr "सिन्थ ब्रास १"
+
+#: instrname.i18n:69
+msgid "Synth Brass 2"
+msgstr "सिन्थ ब्रास २"
+
+#: instrname.i18n:70
+msgid "Soprano Sax"
+msgstr "सोप्रानो स्याक्स"
+
+#: instrname.i18n:71
+msgid "Alto Sax"
+msgstr "अल्टो स्याक्स"
+
+#: instrname.i18n:72
+msgid "Tenor Sax"
+msgstr "टेनोर स्याक्स"
+
+#: instrname.i18n:73
+msgid "Baritone Sax"
+msgstr "ब्यारीटोन स्याक्स"
+
+#: instrname.i18n:74
+msgid "Oboe"
+msgstr "ओबोइ"
+
+#: instrname.i18n:75
+msgid "English Horn"
+msgstr "अङ्ग्रेजी हर्न"
+
+#: instrname.i18n:76
+msgid "Bassoon"
+msgstr "बासून"
+
+#: instrname.i18n:77
+msgid "Clarinet"
+msgstr "क्लारिनेट"
+
+#: instrname.i18n:78
+msgid "Piccolo"
+msgstr "पिककोलो"
+
+#: instrname.i18n:79
+msgid "Flute"
+msgstr "मुरली"
+
+#: instrname.i18n:80
+msgid "Recorder"
+msgstr "रेकर्डर"
+
+#: instrname.i18n:81
+msgid "Pan Flute"
+msgstr "प्यान मुरली"
+
+#: instrname.i18n:82
+msgid "Blown Bottle"
+msgstr "ब्लोन बटल"
+
+#: instrname.i18n:83
+msgid "Shakuhachi"
+msgstr "साखुहाची"
+
+#: instrname.i18n:84
+msgid "Whistle"
+msgstr "सीटी"
+
+#: instrname.i18n:85
+msgid "Ocarina"
+msgstr "ओकारिना"
+
+#: instrname.i18n:86
+msgid "Lead 1 - Square Wave"
+msgstr "लिड १ - वर्ग तरङ्ग"
+
+#: instrname.i18n:87
+msgid "Lead 2 - Saw Tooth"
+msgstr "लिड २ - स टुथ"
+
+#: instrname.i18n:88
+msgid "Lead 3 - Calliope"
+msgstr "लिड ३ - क्यालिओप"
+
+#: instrname.i18n:89
+msgid "Lead 4 - Chiflead"
+msgstr "लिड ४ - चिफलिड"
+
+#: instrname.i18n:90
+msgid "Lead 5 - Charang"
+msgstr "लिड ५ - च्याराङ"
+
+#: instrname.i18n:91
+msgid "Lead 6 - Voice"
+msgstr "लिड ६ - आवाज"
+
+#: instrname.i18n:92
+msgid "Lead 7 - Fifths"
+msgstr "लिड ७ - पाँचौ"
+
+#: instrname.i18n:93
+msgid "Lead 8 - Bass+Lead"
+msgstr "लिड ८ - बास+लिड"
+
+#: instrname.i18n:94
+msgid "Pad 1 - New Age"
+msgstr "प्याड १ - नयाँ उमेर"
+
+#: instrname.i18n:95
+msgid "Pad 2 - Warm"
+msgstr "प्याड २ - गरम"
+
+#: instrname.i18n:96
+msgid "Pad 3 - Polysynth"
+msgstr "प्याड ३ - पोलिसिन्थ"
+
+#: instrname.i18n:97
+msgid "Pad 4 - Choir"
+msgstr "प्याड ४ - चोयर"
+
+#: instrname.i18n:98
+msgid "Pad 5 - Bow"
+msgstr "प्याड ५ - गज"
+
+#: instrname.i18n:99
+msgid "Pad 6 - Metallic"
+msgstr "प्याड ६ - मेटालिक"
+
+#: instrname.i18n:100
+msgid "Pad 7 - Halo"
+msgstr "प्याड ७ - हलो"
+
+#: instrname.i18n:101
+msgid "Pad 8 - Sweep"
+msgstr "प्याड ८ - स्विप"
+
+#: instrname.i18n:102
+msgid "FX 1 - Rain"
+msgstr "FX 1 - रेन"
+
+#: instrname.i18n:103
+msgid "FX 2 - Soundtrack"
+msgstr "FX 2 - ध्वनि ट्रयाक"
+
+#: instrname.i18n:104
+msgid "FX 3 - Crystal"
+msgstr "FX 3 - क्रिस्टल"
+
+#: instrname.i18n:105
+msgid "FX 4 - Atmosphere"
+msgstr "FX 4 - वायुमण्डल"
+
+#: instrname.i18n:106
+msgid "FX 5 - Brightness"
+msgstr "FX 5 - चम्किलोपन"
+
+#: instrname.i18n:107
+msgid "FX 6 - Goblins"
+msgstr "FX 6 - वेताल"
+
+#: instrname.i18n:108
+msgid "FX 7 - Echoes"
+msgstr "FX 7 - प्रतिध्वनि"
+
+#: instrname.i18n:109
+msgid "FX 8 - Sci-fi"
+msgstr "FX 8 - Sci-fi"
+
+#: instrname.i18n:110
+msgid "Sitar"
+msgstr "सितार"
+
+#: instrname.i18n:111
+msgid "Banjo"
+msgstr "ब्यान्जो"
+
+#: instrname.i18n:112
+msgid "Shamisen"
+msgstr "शामीसेन"
+
+#: instrname.i18n:113
+msgid "Koto"
+msgstr "कोटो"
+
+#: instrname.i18n:114
+msgid "Kalimba"
+msgstr "कालिम्बा"
+
+#: instrname.i18n:115
+msgid "Bagpipe"
+msgstr "ब्यागपाइप"
+
+#: instrname.i18n:116
+msgid "Fiddle"
+msgstr "फिड्डल"
+
+#: instrname.i18n:117
+msgid "Shannai"
+msgstr "शन्नाई"
+
+#: instrname.i18n:118
+msgid "Tinkle Bell"
+msgstr "टिङ्कल घण्टी"
+
+#: instrname.i18n:119
+msgid "Agogo"
+msgstr "एगोगो"
+
+#: instrname.i18n:120
+msgid "Steel Drum"
+msgstr "स्टिल ड्रम"
+
+#: instrname.i18n:121
+msgid "Wook Block"
+msgstr "हुक ब्लक"
+
+#: instrname.i18n:122
+msgid "Taiko Drum"
+msgstr "टाइको ड्रम"
+
+#: instrname.i18n:123
+msgid "Melodic Tom"
+msgstr "मेलोडिक टम"
+
+#: instrname.i18n:124
+msgid "Synth Drum"
+msgstr "सिन्थ ड्रम"
+
+#: instrname.i18n:125
+msgid "Reverse Cymbal"
+msgstr "उल्टा सिम्बल"
+
+#: instrname.i18n:126
+msgid "Guitar Fret Noise"
+msgstr "गितार क्रोध हल्ला"
+
+#: instrname.i18n:127
+msgid "Breath Noise"
+msgstr "साहसी हल्ला"
+
+#: instrname.i18n:128
+msgid "Seashore"
+msgstr "सिशोर"
+
+#: instrname.i18n:129
+msgid "Bird Tweet"
+msgstr "बर्ड ट्विट"
+
+#: instrname.i18n:130
+msgid "Telephone"
+msgstr "टेलिफोन"
+
+#: instrname.i18n:131
+msgid "Helicopter"
+msgstr "हेलिकप्टर"
+
+#: instrname.i18n:132
+msgid "Applause"
+msgstr "प्रशंसा"
+
+#: instrname.i18n:133
+msgid "Gunshot"
+msgstr "गोली चलेको आवाज"

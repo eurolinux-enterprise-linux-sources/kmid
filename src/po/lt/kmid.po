@@ -1,0 +1,1101 @@
+# translation of kmid.po to Lithuanian
+#
+# Donatas Glodenis <dgvirtual@akl.lt>, 2004, 2005, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmid\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-10-11 05:45+0200\n"
+"PO-Revision-Date: 2007-10-05 13:58+0300\n"
+"Last-Translator: Donatas Glodenis <dgvirtual@akl.lt>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: channel.cpp:97
+#, fuzzy, kde-format
+msgid "Channel %1"
+msgstr "Kanalas %1"
+
+#: channelcfgdlg.cpp:19
+#, fuzzy
+msgid "Configure Channel View"
+msgstr "Konfiguruoti kanalo vaizdą"
+
+#: channelcfgdlg.cpp:28
+#, fuzzy
+msgid "Choose Look Mode"
+msgstr "Pasirinkti išvaizdą"
+
+#: channelcfgdlg.cpp:30
+#, fuzzy
+msgid "3D look"
+msgstr "3D išvaizda"
+
+#: channelcfgdlg.cpp:32
+#, fuzzy
+msgid "3D - filled"
+msgstr "3D- užpildyta"
+
+#: channelview.cpp:41
+#, fuzzy
+msgid "Channel View"
+msgstr "Kanalo vaizdas"
+
+#: collectdlg.cpp:49
+#, fuzzy
+msgid "Collections Manager"
+msgstr "Kolekcijų tvarkyklė"
+
+#: collectdlg.cpp:57
+#, fuzzy
+msgid "Available collections:"
+msgstr "Galimos kolekcijos :"
+
+#: collectdlg.cpp:77
+#, fuzzy
+msgid "Songs in selected collection:"
+msgstr "Dainos pasirinktose kolekcijose:"
+
+#: collectdlg.cpp:91
+#, fuzzy
+msgid "&New..."
+msgstr "&Naujas..."
+
+#: collectdlg.cpp:95
+#, fuzzy
+msgid "&Copy..."
+msgstr "&Kopijuoti..."
+
+#: collectdlg.cpp:99
+#, fuzzy
+msgid "Delete"
+msgstr "Pašalinti"
+
+#: collectdlg.cpp:104
+#, fuzzy
+msgid "&Add..."
+msgstr "&Įdėti..."
+
+#: collectdlg.cpp:108
+#, fuzzy
+msgid "&Remove"
+msgstr "&Pašalinti"
+
+#: collectdlg.cpp:164
+#, fuzzy
+msgid "New Collection"
+msgstr "Nauja kolekcija"
+
+#: collectdlg.cpp:165
+#, fuzzy
+msgid "Enter the name of the new collection:"
+msgstr "Įveskite naujos kolekcijos vardą"
+
+#: collectdlg.cpp:173 collectdlg.cpp:199 collectdlg.cpp:241
+#, fuzzy, kde-format
+msgid "The name '%1' is already used"
+msgstr "Vardas '%1' jau egzistuoja"
+
+#: collectdlg.cpp:190
+#, fuzzy
+msgid "Copy Collection"
+msgstr "Kopijuoti kolekciją"
+
+#: collectdlg.cpp:191
+#, fuzzy
+msgid "Enter the name of the copy collection:"
+msgstr "Įrašykite kolekcijos kopijos vardą"
+
+#: collectdlg.cpp:233
+#, fuzzy
+msgid "Change Collection Name"
+msgstr "Pakeisti kolekcijos vardą"
+
+#: collectdlg.cpp:234
+#, fuzzy
+msgid "Enter the name of the selected collection:"
+msgstr "Įrašykite išrinktų kolekcijų naujus vardus"
+
+#: kmid_part.cpp:63
+msgid "KMid"
+msgstr ""
+
+#: kmid_part.cpp:64
+msgid "MIDI/Karaoke file player"
+msgstr "MIDI/Karaoke failų grotuvas"
+
+#: kmid_part.cpp:65
+#, fuzzy
+msgid "(c) 1997,98,99,2000, Antonio Larrosa Jimenez"
+msgstr "(C) 1997,98,99,2000, Antonio Larrosa Jimenez"
+
+#: kmid_part.cpp:67
+#, fuzzy
+msgid "Antonio Larrosa Jimenez"
+msgstr "(C) 1997,98,99,2000, Antonio Larrosa Jimenez"
+
+#: kmid_part.cpp:68
+#, fuzzy
+msgid "Original Developer/Maintainer"
+msgstr "Pirmasis programuotojas/palaikytojas"
+
+#: kmid_part.cpp:95
+#, fuzzy
+msgid "Play"
+msgstr "Groti"
+
+#: kmid_part.cpp:100
+#, fuzzy
+msgid "Stop"
+msgstr "Stop"
+
+#: kmid_part.cpp:105
+#, fuzzy
+msgid "Backward"
+msgstr "Atgal"
+
+#: kmid_part.cpp:110 kmidframe.cpp:136
+#, fuzzy
+msgid "Forward"
+msgstr "Pirmyn"
+
+#: kmidclient.cpp:117
+#, fuzzy
+msgid "Tempo:"
+msgstr "Tempas :"
+
+#: kmidclient.cpp:139
+#, fuzzy
+msgid "Default"
+msgstr "Numatytas"
+
+#: kmidclient.cpp:315
+#, kde-format
+msgid "The file %1 does not exist or cannot be opened."
+msgstr "Failas %1 neegzistuoja arba negali būti atvertas."
+
+#: kmidclient.cpp:318
+#, kde-format
+msgid "The file %1 is not a MIDI file."
+msgstr "Failas %1 nėra midi failas."
+
+#: kmidclient.cpp:320
+msgid ""
+"Ticks per quarter note is negative. Please send this file to larrosa@kde.org"
+msgstr ""
+"Žingsnis per ketvirtį natos yra neigiamas. Prašau atsiųsti šį failą "
+"larrosa@kde.org"
+
+#: kmidclient.cpp:322
+#, fuzzy
+msgid "Not enough memory."
+msgstr "Neužtenka atminties!!"
+
+#: kmidclient.cpp:324
+msgid "This file is corrupted or not well built."
+msgstr "Failas sugadintas arba neteisingai sudarytas."
+
+#: kmidclient.cpp:326
+#, kde-format
+msgid "%1 is not a regular file."
+msgstr "%1 nėra įprastinis failas."
+
+#: kmidclient.cpp:327
+#, fuzzy
+msgid "Unknown error message"
+msgstr "Nežinomos klaidos pranešimas"
+
+#: kmidclient.cpp:536
+msgid "You must load a file before playing it."
+msgstr "Prieš grojant reikia įkelti failą."
+
+#: kmidclient.cpp:542
+#, fuzzy
+msgid "A song is already being played."
+msgstr "Daina jau grojama."
+
+#: kmidclient.cpp:548
+#, fuzzy
+msgid ""
+"Could not open /dev/sequencer.\n"
+"Probably there is another program using it."
+msgstr ""
+"Nepavyksta atidaryti /dev/sequencer.\n"
+"Greičiausiai kita programa jį naudoja."
+
+#: kmidframe.cpp:95
+#, fuzzy
+msgid "&Save Lyrics..."
+msgstr "Į&rašyti lyriką..."
+
+#: kmidframe.cpp:101
+#, fuzzy
+msgid "&Play"
+msgstr "&Groti"
+
+#: kmidframe.cpp:106
+#, fuzzy
+msgid "P&ause"
+msgstr "P&auzė"
+
+#: kmidframe.cpp:111
+#, fuzzy
+msgid "&Stop"
+msgstr "&Sustabdyti"
+
+#: kmidframe.cpp:117
+#, fuzzy
+msgid "P&revious Song"
+msgstr "&Ankstesnė daina"
+
+#: kmidframe.cpp:122
+#, fuzzy
+msgid "&Next Song"
+msgstr "&Kita daina"
+
+#: kmidframe.cpp:126
+#, fuzzy
+msgid "&Loop"
+msgstr "Cik&las"
+
+#: kmidframe.cpp:131
+#, fuzzy
+msgid "Rewind"
+msgstr "Atsukti"
+
+#: kmidframe.cpp:140
+#, fuzzy
+msgid "&Organize..."
+msgstr "&Sutvarkyti ..."
+
+#: kmidframe.cpp:144
+#, fuzzy
+msgid "In Order"
+msgstr "Tvarka"
+
+#: kmidframe.cpp:145
+#, fuzzy
+msgid "Shuffle"
+msgstr "Maišant"
+
+#: kmidframe.cpp:148
+#, fuzzy
+msgid "Play Order"
+msgstr "Grojimo tvarka"
+
+#: kmidframe.cpp:153
+#, fuzzy
+msgid "Auto-Add to Collection"
+msgstr "Įdėti į kolekciją automatiškai"
+
+#: kmidframe.cpp:157
+#, fuzzy
+msgid "&General MIDI"
+msgstr "&Bendras Midi"
+
+#: kmidframe.cpp:158
+#, fuzzy
+msgid "&MT-32"
+msgstr "&MT-32"
+
+#: kmidframe.cpp:161
+msgid "File Type"
+msgstr "Failo tipas"
+
+#: kmidframe.cpp:166
+#, fuzzy
+msgid "&Text Events"
+msgstr "&Teksto įvykiai"
+
+#: kmidframe.cpp:167
+#, fuzzy
+msgid "&Lyric Events"
+msgstr "&Lyrikos įvykiai"
+
+#: kmidframe.cpp:170
+#, fuzzy
+msgid "Display Events"
+msgstr "Rodyti įvykius"
+
+#: kmidframe.cpp:176
+#, fuzzy
+msgid "Automatic Text Chooser"
+msgstr "Automatiškas teksto parinkimas"
+
+#: kmidframe.cpp:181
+#, fuzzy
+msgid "Show &Volume Bar"
+msgstr "Rodyti &garsumo juostą"
+
+#: kmidframe.cpp:183
+#, fuzzy
+msgid "Hide &Volume Bar"
+msgstr "Rodyti &garsumo juostą"
+
+#: kmidframe.cpp:187
+#, fuzzy
+msgid "Show &Channel View"
+msgstr "Rodyti &kanalo vaizdą"
+
+#: kmidframe.cpp:189
+#, fuzzy
+msgid "Hide &Channel View"
+msgstr "Kanalo vaizdas"
+
+#: kmidframe.cpp:192
+#, fuzzy
+msgid "Channel View &Options..."
+msgstr "Kanalo vaizdo &parinktys..."
+
+#: kmidframe.cpp:196
+#, fuzzy
+msgid "&Font Change..."
+msgstr "Pakeisti šri&ftą..."
+
+#: kmidframe.cpp:200
+#, fuzzy
+msgid "MIDI &Setup..."
+msgstr "Midi &sąranka ..."
+
+#: kmidframe.cpp:309 kmidframe.cpp:573 midicfgdlg.cpp:127
+msgid "Only local files are currently supported."
+msgstr "Šiuo metu galimi tik vietiniai failai."
+
+#: kmidframe.cpp:486
+#, fuzzy
+msgid ""
+"Could not open /dev/sequencer to get some info.\n"
+"Probably there is another program using it."
+msgstr ""
+"Negalima atidaryti /dev/sequencer, gauti kai kurios informacijos.\n"
+"Greičiausiai kita programa jį naudoja."
+
+#: kmidframe.cpp:582
+#, kde-format
+msgid ""
+"File %1 already exists\n"
+"Do you want to overwrite it?"
+msgstr ""
+"Failas %1 jau egzistuoja\n"
+"Ar nori jį perrašyti?"
+
+#: kmidframe.cpp:583
+#, fuzzy
+msgid "Overwrite"
+msgstr "Perrašyti"
+
+#: main.cpp:62
+msgid "File to open"
+msgstr "Failas atvėrimui"
+
+#: midicfgdlg.cpp:48
+#, fuzzy
+msgid "Configure MIDI Devices"
+msgstr "Konfigūruoti Midi įrenginius"
+
+#: midicfgdlg.cpp:58
+#, fuzzy
+msgid "Select the MIDI device you want to use:"
+msgstr "Pasirinkite MIDI įrenginį, kurį Jūs norite naudoti :"
+
+#: midicfgdlg.cpp:77
+#, fuzzy
+msgid "Use the MIDI map:"
+msgstr "Naudoti midi prijungimą :"
+
+#: midicfgdlg.cpp:91 midicfgdlg.cpp:102 midicfgdlg.cpp:142
+#, fuzzy
+msgid "None"
+msgstr "Nieko"
+
+#: midicfgdlg.cpp:98
+#, fuzzy
+msgid "Browse..."
+msgstr "Naršyti..."
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 4
+#: rc.cpp:3
+msgid "&File"
+msgstr "&Failas"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 7
+#: rc.cpp:6
+#, fuzzy
+msgid "&Song"
+msgstr "&Daina"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 15
+#: rc.cpp:9
+#, fuzzy
+msgid "&Collections"
+msgstr "&Kolekcijos"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 32
+#: rc.cpp:12
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "Pagrindinė įrankių juosta:"
+
+#: rc.cpp:13
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eugenijus Paulauskas"
+
+#: rc.cpp:14
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "eugenijus@agvila.lt"
+
+#: slman.cpp:225
+#, fuzzy
+msgid "Temporary Collection"
+msgstr "Laikina kolekcija"
+
+#: instrname.i18n:6
+#, fuzzy
+msgid "Acoustic Grand Piano"
+msgstr "Akustinis Grand Piano"
+
+#: instrname.i18n:7
+#, fuzzy
+msgid "Bright Acoustic Piano"
+msgstr "Akustinis Bright Piano"
+
+#: instrname.i18n:8
+#, fuzzy
+msgid "Electric Grand Piano"
+msgstr "Elektrinis Grand Piano"
+
+#: instrname.i18n:9
+#, fuzzy
+msgid "Honky-Tonk"
+msgstr "Honky-Tonk"
+
+#: instrname.i18n:10
+#, fuzzy
+msgid "Rhodes Piano"
+msgstr "Rhodes Piano"
+
+#: instrname.i18n:11
+#, fuzzy
+msgid "Chorused Piano"
+msgstr "Chorused Piano"
+
+#: instrname.i18n:12
+#, fuzzy
+msgid "Harpsichord"
+msgstr "Harpsichord"
+
+#: instrname.i18n:13
+#, fuzzy
+msgid "Clavinet"
+msgstr "Klavesinas"
+
+#: instrname.i18n:14
+#, fuzzy
+msgid "Celesta"
+msgstr "Celesta"
+
+#: instrname.i18n:15
+#, fuzzy
+msgid "Glockenspiel"
+msgstr "Glockenspiel"
+
+#: instrname.i18n:16
+#, fuzzy
+msgid "Music Box"
+msgstr "Muzikos dėžė"
+
+#: instrname.i18n:17
+#, fuzzy
+msgid "Vibraphone"
+msgstr "Vibrafonas"
+
+#: instrname.i18n:18
+#, fuzzy
+msgid "Marimba"
+msgstr "Marimba"
+
+#: instrname.i18n:19
+#, fuzzy
+msgid "Xylophone"
+msgstr "Ksilofonas"
+
+#: instrname.i18n:20
+#, fuzzy
+msgid "Tubular Bells"
+msgstr "Vamzdiniai skambučiai"
+
+#: instrname.i18n:21
+#, fuzzy
+msgid "Dulcimer"
+msgstr "Cimbolai"
+
+#: instrname.i18n:22
+#, fuzzy
+msgid "Hammond Organ"
+msgstr "Hammond vargonai"
+
+#: instrname.i18n:23
+#, fuzzy
+msgid "Percussive Organ"
+msgstr "Mušamieji vargonai"
+
+#: instrname.i18n:24
+#, fuzzy
+msgid "Rock Organ"
+msgstr "Roko vargonai"
+
+#: instrname.i18n:25
+#, fuzzy
+msgid "Church Organ"
+msgstr "Bažnytiniai vargonai"
+
+#: instrname.i18n:26
+#, fuzzy
+msgid "Reed Organ"
+msgstr "Lėžuvėliniai vargonai"
+
+#: instrname.i18n:27
+#, fuzzy
+msgid "Accordion"
+msgstr "Akordeonas"
+
+#: instrname.i18n:28
+#, fuzzy
+msgid "Harmonica"
+msgstr "Armonika"
+
+#: instrname.i18n:29
+#, fuzzy
+msgid "Tango Accordion"
+msgstr "Tango akordeonas"
+
+#: instrname.i18n:30
+#, fuzzy
+msgid "Acoustic Guitar (Nylon)"
+msgstr "Akustinė gitara (nailonas)"
+
+#: instrname.i18n:31
+#, fuzzy
+msgid "Acoustic Guitar (Steel)"
+msgstr "Akustinė gitara (plienas)"
+
+#: instrname.i18n:32
+#, fuzzy
+msgid "Electric Guitar (Jazz)"
+msgstr "Elektrinė gitara (džazas)"
+
+#: instrname.i18n:33
+#, fuzzy
+msgid "Electric Guitar (Clean)"
+msgstr "Elektrinė gitara (aiški)"
+
+#: instrname.i18n:34
+#, fuzzy
+msgid "Electric Guitar (Muted)"
+msgstr "Elektrinė gitara (pritildyta)"
+
+#: instrname.i18n:35
+#, fuzzy
+msgid "Overdriven Guitar"
+msgstr "Overdriven Guitar"
+
+#: instrname.i18n:36
+#, fuzzy
+msgid "Distortion Guitar"
+msgstr "Iškreipta gitara"
+
+#: instrname.i18n:37
+#, fuzzy
+msgid "Guitar Harmonics"
+msgstr "Gitarų harmonija"
+
+#: instrname.i18n:38
+#, fuzzy
+msgid "Acoustic Bass"
+msgstr "Akustinis bosas"
+
+#: instrname.i18n:39
+#, fuzzy
+msgid "Electric Bass (Finger)"
+msgstr "Elektrinis bosas (Finger)"
+
+#: instrname.i18n:40
+#, fuzzy
+msgid "Electric Bass (Pick)"
+msgstr "Elektrinis bosas (Pick)"
+
+#: instrname.i18n:41
+#, fuzzy
+msgid "Fretless Bass"
+msgstr "Fretless Bass"
+
+#: instrname.i18n:42
+#, fuzzy
+msgid "Slap Bass 1"
+msgstr "Slap Bass 1"
+
+#: instrname.i18n:43
+#, fuzzy
+msgid "Slap Bass 2"
+msgstr "Slap Bass 2"
+
+#: instrname.i18n:44
+#, fuzzy
+msgid "Synth Bass 1"
+msgstr "Sintezuotas bosas 1"
+
+#: instrname.i18n:45
+#, fuzzy
+msgid "Synth Bass 2"
+msgstr "Sintezuotas bosas 2"
+
+#: instrname.i18n:46
+#, fuzzy
+msgid "Violin"
+msgstr "Smuikas"
+
+#: instrname.i18n:47
+#, fuzzy
+msgid "Viola"
+msgstr "Altas"
+
+#: instrname.i18n:48
+#, fuzzy
+msgid "Cello"
+msgstr "Violančelė"
+
+#: instrname.i18n:49
+#, fuzzy
+msgid "Contrabass"
+msgstr "Kontrabosas"
+
+#: instrname.i18n:50
+#, fuzzy
+msgid "Tremolo Strings"
+msgstr "Tremolo eilutės"
+
+#: instrname.i18n:51
+#, fuzzy
+msgid "Pizzicato Strings"
+msgstr "Pizzicato eilutės"
+
+#: instrname.i18n:52
+#, fuzzy
+msgid "Orchestral Harp"
+msgstr "Orkestrinė arfa"
+
+#: instrname.i18n:53
+#, fuzzy
+msgid "Timpani"
+msgstr "Timpanai"
+
+#: instrname.i18n:54
+#, fuzzy
+msgid "String Ensemble 1"
+msgstr "Ansamblio eilutė 1"
+
+#: instrname.i18n:55
+#, fuzzy
+msgid "String Ensemble 2"
+msgstr "Ansamblio eilutė 2"
+
+#: instrname.i18n:56
+#, fuzzy
+msgid "Synth Strings 1"
+msgstr "Sintezatoriaus eilutė 1"
+
+#: instrname.i18n:57
+#, fuzzy
+msgid "Synth Strings 2"
+msgstr "Sintezatoriaus eilutė 2"
+
+#: instrname.i18n:58
+#, fuzzy
+msgid "Choir Aahs"
+msgstr "Choro Aah"
+
+#: instrname.i18n:59
+#, fuzzy
+msgid "Voice Oohs"
+msgstr "Balso Ooh"
+
+#: instrname.i18n:60
+#, fuzzy
+msgid "Synth Voice"
+msgstr "Sintetinis balsas"
+
+#: instrname.i18n:61
+#, fuzzy
+msgid "Orchestra Hit"
+msgstr "Orckestro pataikymas"
+
+#: instrname.i18n:62
+#, fuzzy
+msgid "Trumpet"
+msgstr "Trimitas"
+
+#: instrname.i18n:63
+#, fuzzy
+msgid "Trombone"
+msgstr "Trombonas"
+
+#: instrname.i18n:64
+#, fuzzy
+msgid "Tuba"
+msgstr "Tūba"
+
+#: instrname.i18n:65
+#, fuzzy
+msgid "Muted Trumpet"
+msgstr "Pritildytas trimitas"
+
+#: instrname.i18n:66
+#, fuzzy
+msgid "French Horn"
+msgstr "Prancūziškas ragas"
+
+#: instrname.i18n:67
+#, fuzzy
+msgid "Brass Section"
+msgstr "Variniai instrumentai"
+
+#: instrname.i18n:68
+#, fuzzy
+msgid "Synth Brass 1"
+msgstr "Sintezuoti varinius 1"
+
+#: instrname.i18n:69
+#, fuzzy
+msgid "Synth Brass 2"
+msgstr "Sintezuoti varinius 2"
+
+#: instrname.i18n:70
+#, fuzzy
+msgid "Soprano Sax"
+msgstr "Saksofonas sopranas"
+
+#: instrname.i18n:71
+#, fuzzy
+msgid "Alto Sax"
+msgstr "Saksofonas altas"
+
+#: instrname.i18n:72
+#, fuzzy
+msgid "Tenor Sax"
+msgstr "Saksofonas tenoras"
+
+#: instrname.i18n:73
+#, fuzzy
+msgid "Baritone Sax"
+msgstr "Saksofonas baritonas"
+
+#: instrname.i18n:74
+#, fuzzy
+msgid "Oboe"
+msgstr "Obojus"
+
+#: instrname.i18n:75
+#, fuzzy
+msgid "English Horn"
+msgstr "Angliškas ragas"
+
+#: instrname.i18n:76
+#, fuzzy
+msgid "Bassoon"
+msgstr "Fagotas"
+
+#: instrname.i18n:77
+#, fuzzy
+msgid "Clarinet"
+msgstr "Klarnetas"
+
+#: instrname.i18n:78
+#, fuzzy
+msgid "Piccolo"
+msgstr "Fleita pikolo"
+
+#: instrname.i18n:79
+#, fuzzy
+msgid "Flute"
+msgstr "Fleita"
+
+#: instrname.i18n:80
+#, fuzzy
+msgid "Recorder"
+msgstr "Išilginė fleita"
+
+#: instrname.i18n:81
+#, fuzzy
+msgid "Pan Flute"
+msgstr "Pan fleita"
+
+#: instrname.i18n:82
+#, fuzzy
+msgid "Blown Bottle"
+msgstr "Pučiamas butelys"
+
+#: instrname.i18n:83
+#, fuzzy
+msgid "Shakuhachi"
+msgstr "Shakuhachi"
+
+#: instrname.i18n:84
+#, fuzzy
+msgid "Whistle"
+msgstr "Švilpukas"
+
+#: instrname.i18n:85
+#, fuzzy
+msgid "Ocarina"
+msgstr "Okarina"
+
+#: instrname.i18n:86
+#, fuzzy
+msgid "Lead 1 - Square Wave"
+msgstr "Lead 1 - Square Wave"
+
+#: instrname.i18n:87
+#, fuzzy
+msgid "Lead 2 - Saw Tooth"
+msgstr "Lead 2 - Saw Tooth"
+
+#: instrname.i18n:88
+#, fuzzy
+msgid "Lead 3 - Calliope"
+msgstr "Lead 3 - Calliope"
+
+#: instrname.i18n:89
+#, fuzzy
+msgid "Lead 4 - Chiflead"
+msgstr "Lead 4 - Chiflead"
+
+#: instrname.i18n:90
+#, fuzzy
+msgid "Lead 5 - Charang"
+msgstr "Lead 5 - Charang"
+
+#: instrname.i18n:91
+#, fuzzy
+msgid "Lead 6 - Voice"
+msgstr "Lead 6 - Balsas"
+
+#: instrname.i18n:92
+#, fuzzy
+msgid "Lead 7 - Fifths"
+msgstr "Lead 7 - Fifths"
+
+#: instrname.i18n:93
+#, fuzzy
+msgid "Lead 8 - Bass+Lead"
+msgstr "Lead 8 - Bass+Lead"
+
+#: instrname.i18n:94
+#, fuzzy
+msgid "Pad 1 - New Age"
+msgstr "Pad 1 - New Age"
+
+#: instrname.i18n:95
+#, fuzzy
+msgid "Pad 2 - Warm"
+msgstr "Pad 2 - Warm"
+
+#: instrname.i18n:96
+#, fuzzy
+msgid "Pad 3 - Polysynth"
+msgstr "Pad 3 - Polysynth"
+
+#: instrname.i18n:97
+#, fuzzy
+msgid "Pad 4 - Choir"
+msgstr "Pad 4 - Choir"
+
+#: instrname.i18n:98
+#, fuzzy
+msgid "Pad 5 - Bow"
+msgstr "Pad 5 - Bow"
+
+#: instrname.i18n:99
+#, fuzzy
+msgid "Pad 6 - Metallic"
+msgstr "Pad 6 - Metallic"
+
+#: instrname.i18n:100
+#, fuzzy
+msgid "Pad 7 - Halo"
+msgstr "Pad 7 - Halo"
+
+#: instrname.i18n:101
+#, fuzzy
+msgid "Pad 8 - Sweep"
+msgstr "Pad 8 - Sweep"
+
+#: instrname.i18n:102
+#, fuzzy
+msgid "FX 1 - Rain"
+msgstr "FX 1 - Lietus"
+
+#: instrname.i18n:103
+#, fuzzy
+msgid "FX 2 - Soundtrack"
+msgstr "FX 2 - Garso takelis"
+
+#: instrname.i18n:104
+#, fuzzy
+msgid "FX 3 - Crystal"
+msgstr "FX 3 - Kristalas"
+
+#: instrname.i18n:105
+#, fuzzy
+msgid "FX 4 - Atmosphere"
+msgstr "FX 4 - Atmosfera"
+
+#: instrname.i18n:106
+#, fuzzy
+msgid "FX 5 - Brightness"
+msgstr "FX 5 - Ryškumas"
+
+#: instrname.i18n:107
+#, fuzzy
+msgid "FX 6 - Goblins"
+msgstr "FX 6 - Goblinai"
+
+#: instrname.i18n:108
+#, fuzzy
+msgid "FX 7 - Echoes"
+msgstr "FX 7 - Aidai"
+
+#: instrname.i18n:109
+#, fuzzy
+msgid "FX 8 - Sci-fi"
+msgstr "FX 8 - Sci-fi"
+
+#: instrname.i18n:110
+#, fuzzy
+msgid "Sitar"
+msgstr "Sitara"
+
+#: instrname.i18n:111
+#, fuzzy
+msgid "Banjo"
+msgstr "Bandžo"
+
+#: instrname.i18n:112
+#, fuzzy
+msgid "Shamisen"
+msgstr "Shamisen"
+
+#: instrname.i18n:113
+#, fuzzy
+msgid "Koto"
+msgstr "Koto"
+
+#: instrname.i18n:114
+#, fuzzy
+msgid "Kalimba"
+msgstr "Kalimba"
+
+#: instrname.i18n:115
+#, fuzzy
+msgid "Bagpipe"
+msgstr "Dūdmaišis"
+
+#: instrname.i18n:116
+#, fuzzy
+msgid "Fiddle"
+msgstr "Smuikas"
+
+#: instrname.i18n:117
+#, fuzzy
+msgid "Shannai"
+msgstr "Shannai"
+
+#: instrname.i18n:118
+#, fuzzy
+msgid "Tinkle Bell"
+msgstr "Cinkčiojantys skambučiai"
+
+#: instrname.i18n:119
+#, fuzzy
+msgid "Agogo"
+msgstr "Agogo"
+
+#: instrname.i18n:120
+#, fuzzy
+msgid "Steel Drum"
+msgstr "Plieno būgnas"
+
+#: instrname.i18n:121
+#, fuzzy
+msgid "Wook Block"
+msgstr "Wook Block"
+
+#: instrname.i18n:122
+#, fuzzy
+msgid "Taiko Drum"
+msgstr "Taiko būgnas"
+
+#: instrname.i18n:123
+#, fuzzy
+msgid "Melodic Tom"
+msgstr "Melodic Tom"
+
+#: instrname.i18n:124
+#, fuzzy
+msgid "Synth Drum"
+msgstr "Sintezuoti būgną"
+
+#: instrname.i18n:125
+#, fuzzy
+msgid "Reverse Cymbal"
+msgstr "Atvirkščios lėkštės"
+
+#: instrname.i18n:126
+#, fuzzy
+msgid "Guitar Fret Noise"
+msgstr "Gitaros įkyrus triukšmas"
+
+#: instrname.i18n:127
+#, fuzzy
+msgid "Breath Noise"
+msgstr "Dūsavimas"
+
+#: instrname.i18n:128
+#, fuzzy
+msgid "Seashore"
+msgstr "Jūros mūša"
+
+#: instrname.i18n:129
+#, fuzzy
+msgid "Bird Tweet"
+msgstr "Paukščio čirškėjimas"
+
+#: instrname.i18n:130
+#, fuzzy
+msgid "Telephone"
+msgstr "Telefonas"
+
+#: instrname.i18n:131
+#, fuzzy
+msgid "Helicopter"
+msgstr "Malūnsparnis"
+
+#: instrname.i18n:132
+#, fuzzy
+msgid "Applause"
+msgstr "Aplodismentai"
+
+#: instrname.i18n:133
+#, fuzzy
+msgid "Gunshot"
+msgstr "Šūvis"

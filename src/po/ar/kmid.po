@@ -1,0 +1,1006 @@
+# translation of kmid.po to
+# Copyright (C) 2002, 2004, 2006, 2007 Free Software Foundation, Inc.
+#
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Usamah Ali Al-Maqdad <msareehi@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmid\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-10-11 05:45+0200\n"
+"PO-Revision-Date: 2007-10-14 15:27+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: channel.cpp:97
+#, kde-format
+msgid "Channel %1"
+msgstr "القناة %1"
+
+#: channelcfgdlg.cpp:19
+msgid "Configure Channel View"
+msgstr "إعداد عرض القناة"
+
+#: channelcfgdlg.cpp:28
+msgid "Choose Look Mode"
+msgstr "إختيار نمط المظهر"
+
+#: channelcfgdlg.cpp:30
+msgid "3D look"
+msgstr "مظهر ثلاثي الأبعاد"
+
+#: channelcfgdlg.cpp:32
+msgid "3D - filled"
+msgstr "3D - ممتليء"
+
+#: channelview.cpp:41
+msgid "Channel View"
+msgstr "عرض القناة"
+
+#: collectdlg.cpp:49
+msgid "Collections Manager"
+msgstr "مسيير المجموعات"
+
+#: collectdlg.cpp:57
+msgid "Available collections:"
+msgstr "المجموعات المتوفرة:"
+
+#: collectdlg.cpp:77
+msgid "Songs in selected collection:"
+msgstr "الأغاني في المجموعة المنتقاة:"
+
+#: collectdlg.cpp:91
+msgid "&New..."
+msgstr "&جديد..."
+
+#: collectdlg.cpp:95
+msgid "&Copy..."
+msgstr "أ&نسخ..."
+
+#: collectdlg.cpp:99
+#, fuzzy
+msgid "Delete"
+msgstr "احذف"
+
+#: collectdlg.cpp:104
+msgid "&Add..."
+msgstr "&أضف..."
+
+#: collectdlg.cpp:108
+#, fuzzy
+msgid "&Remove"
+msgstr "أ&زل"
+
+#: collectdlg.cpp:164
+msgid "New Collection"
+msgstr "مجموعة جديدة"
+
+#: collectdlg.cpp:165
+msgid "Enter the name of the new collection:"
+msgstr "أدخل إسم المجموعة الجديدة:"
+
+#: collectdlg.cpp:173 collectdlg.cpp:199 collectdlg.cpp:241
+#, kde-format
+msgid "The name '%1' is already used"
+msgstr "الإسم '%1' مستخدم مسبقا"
+
+#: collectdlg.cpp:190
+msgid "Copy Collection"
+msgstr "أنسخ المجموعة"
+
+#: collectdlg.cpp:191
+msgid "Enter the name of the copy collection:"
+msgstr "أدخل إسم مجموعة النسخ:"
+
+#: collectdlg.cpp:233
+msgid "Change Collection Name"
+msgstr "غيير إسم المجموعة"
+
+#: collectdlg.cpp:234
+msgid "Enter the name of the selected collection:"
+msgstr "أدخل اسم المجموعة المختارة:"
+
+#: kmid_part.cpp:63
+#, fuzzy
+msgid "KMid"
+msgstr "ميد ك"
+
+#: kmid_part.cpp:64
+msgid "MIDI/Karaoke file player"
+msgstr "مشغل ملفات MIDI/Karaoke"
+
+#: kmid_part.cpp:65
+msgid "(c) 1997,98,99,2000, Antonio Larrosa Jimenez"
+msgstr "(c) 1997,98,99,2000, Antonio Larrosa Jimenez"
+
+#: kmid_part.cpp:67
+#, fuzzy
+#| msgid "(c) 1997,98,99,2000, Antonio Larrosa Jimenez"
+msgid "Antonio Larrosa Jimenez"
+msgstr "أنطونيو جيمينيز"
+
+#: kmid_part.cpp:68
+msgid "Original Developer/Maintainer"
+msgstr "المطور/المشرف الأصلي"
+
+#: kmid_part.cpp:95
+msgid "Play"
+msgstr "تشغيل"
+
+#: kmid_part.cpp:100
+#, fuzzy
+msgid "Stop"
+msgstr "قف"
+
+#: kmid_part.cpp:105
+msgid "Backward"
+msgstr "تراجع"
+
+#: kmid_part.cpp:110 kmidframe.cpp:136
+msgid "Forward"
+msgstr "تقدم"
+
+#: kmidclient.cpp:117
+#, fuzzy
+msgid "Tempo:"
+msgstr "سرعة الإيقاع:"
+
+#: kmidclient.cpp:139
+#, fuzzy
+msgid "Default"
+msgstr "افتراضي"
+
+#: kmidclient.cpp:315
+#, kde-format
+msgid "The file %1 does not exist or cannot be opened."
+msgstr "الملف %1 غير موجود أو لا يمكن فتحه."
+
+#: kmidclient.cpp:318
+#, kde-format
+msgid "The file %1 is not a MIDI file."
+msgstr "الملف %1 ليس ملف MIDI."
+
+#: kmidclient.cpp:320
+msgid ""
+"Ticks per quarter note is negative. Please send this file to larrosa@kde.org"
+msgstr ""
+"الضربات لكل ملاحظة مربع هي سالبة. رجاء أرسل هذا الملف إلى larrosa@kde.org"
+
+#: kmidclient.cpp:322
+msgid "Not enough memory."
+msgstr "الذاكرة غير كافية."
+
+#: kmidclient.cpp:324
+msgid "This file is corrupted or not well built."
+msgstr "هذا الملف معطوب أو غير مبني جيدا."
+
+#: kmidclient.cpp:326
+#, kde-format
+msgid "%1 is not a regular file."
+msgstr "الملف %1 ليس ملفا إنتظامياً."
+
+#: kmidclient.cpp:327
+msgid "Unknown error message"
+msgstr "رسالة خطأ غير معروفة"
+
+#: kmidclient.cpp:536
+msgid "You must load a file before playing it."
+msgstr "يجب عليك أن تحمل ملفا قبل تشغيله."
+
+#: kmidclient.cpp:542
+msgid "A song is already being played."
+msgstr "يجري تشغيل أغنية الآن."
+
+#: kmidclient.cpp:548
+msgid ""
+"Could not open /dev/sequencer.\n"
+"Probably there is another program using it."
+msgstr ""
+"تعذر فتح /dev/sequencer.\n"
+"من المحتمل أن يكون هناك برنامج آخر يستخدمه."
+
+#: kmidframe.cpp:95
+msgid "&Save Lyrics..."
+msgstr "إ&حفظ القصائد الغنائية..."
+
+#: kmidframe.cpp:101
+msgid "&Play"
+msgstr "&تشغيل"
+
+#: kmidframe.cpp:106
+msgid "P&ause"
+msgstr "&توقف مؤقت"
+
+#: kmidframe.cpp:111
+msgid "&Stop"
+msgstr "&توقف"
+
+#: kmidframe.cpp:117
+msgid "P&revious Song"
+msgstr "الاغنية ال&سابقة"
+
+#: kmidframe.cpp:122
+msgid "&Next Song"
+msgstr "الاغنية ال&تالية"
+
+#: kmidframe.cpp:126
+msgid "&Loop"
+msgstr "&تكرار"
+
+#: kmidframe.cpp:131
+msgid "Rewind"
+msgstr "إعادة"
+
+#: kmidframe.cpp:140
+msgid "&Organize..."
+msgstr "&نظّم..."
+
+#: kmidframe.cpp:144
+msgid "In Order"
+msgstr "بالترتيب"
+
+#: kmidframe.cpp:145
+#, fuzzy
+msgid "Shuffle"
+msgstr "لخبطة"
+
+#: kmidframe.cpp:148
+msgid "Play Order"
+msgstr "ترتيب القراءة"
+
+#: kmidframe.cpp:153
+msgid "Auto-Add to Collection"
+msgstr "إضافة تلقائية للمجموعة"
+
+#: kmidframe.cpp:157
+msgid "&General MIDI"
+msgstr "ميدي &عام"
+
+#: kmidframe.cpp:158
+msgid "&MT-32"
+msgstr "ا&متي-32"
+
+#: kmidframe.cpp:161
+msgid "File Type"
+msgstr "نوع الملف"
+
+#: kmidframe.cpp:166
+msgid "&Text Events"
+msgstr "أحداث &نص"
+
+#: kmidframe.cpp:167
+msgid "&Lyric Events"
+msgstr "أحداث &قصائد غنائية"
+
+#: kmidframe.cpp:170
+msgid "Display Events"
+msgstr "أعرض الأحداث"
+
+#: kmidframe.cpp:176
+msgid "Automatic Text Chooser"
+msgstr "منتقي نص آلي"
+
+#: kmidframe.cpp:181
+msgid "Show &Volume Bar"
+msgstr "إظهار شريط ال&صوت"
+
+#: kmidframe.cpp:183
+msgid "Hide &Volume Bar"
+msgstr "إخفاء شريط ال&صوت"
+
+#: kmidframe.cpp:187
+msgid "Show &Channel View"
+msgstr "إظهار عرض ال&قناة"
+
+#: kmidframe.cpp:189
+msgid "Hide &Channel View"
+msgstr "إخفاء عرض ال&قناة"
+
+#: kmidframe.cpp:192
+msgid "Channel View &Options..."
+msgstr "&خيارات عرض القناة..."
+
+#: kmidframe.cpp:196
+msgid "&Font Change..."
+msgstr "تغيير ال&محرف..."
+
+#: kmidframe.cpp:200
+#, fuzzy
+msgid "MIDI &Setup..."
+msgstr "MIDI التعيين."
+
+#: kmidframe.cpp:309 kmidframe.cpp:573 midicfgdlg.cpp:127
+msgid "Only local files are currently supported."
+msgstr "الملفات المحلية هي المدعمة حاليا فقط."
+
+#: kmidframe.cpp:486
+#, fuzzy
+msgid ""
+"Could not open /dev/sequencer to get some info.\n"
+"Probably there is another program using it."
+msgstr "يمكن أن ليس فتح إلى get بعض معلومات هو برنامج الإيطالية."
+
+#: kmidframe.cpp:582
+#, kde-format
+msgid ""
+"File %1 already exists\n"
+"Do you want to overwrite it?"
+msgstr ""
+"الملف %1 موجود مسبقاً\n"
+"هل تريد الكتابة عليه ؟"
+
+#: kmidframe.cpp:583
+msgid "Overwrite"
+msgstr "الكتابة فوقه"
+
+#: main.cpp:62
+msgid "File to open"
+msgstr "الملف الذي سيتم فتحه"
+
+#: midicfgdlg.cpp:48
+msgid "Configure MIDI Devices"
+msgstr "إعداد أجهزة ميدي"
+
+#: midicfgdlg.cpp:58
+msgid "Select the MIDI device you want to use:"
+msgstr "اختر جهاز ميدي الذى تريد استخدامه :"
+
+#: midicfgdlg.cpp:77
+#, fuzzy
+msgid "Use the MIDI map:"
+msgstr "إستعمل MIDI خريطة:"
+
+#: midicfgdlg.cpp:91 midicfgdlg.cpp:102 midicfgdlg.cpp:142
+msgid "None"
+msgstr "لا شيء"
+
+#: midicfgdlg.cpp:98
+#, fuzzy
+msgid "Browse..."
+msgstr "استعراض..."
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 4
+#: rc.cpp:3
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 7
+#: rc.cpp:6
+msgid "&Song"
+msgstr "الأ&غنية"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 15
+#: rc.cpp:9
+msgid "&Collections"
+msgstr "ال&مجموعات"
+
+#. i18n: tag text
+#. i18n: file kmidui.rc line 32
+#: rc.cpp:12
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#: rc.cpp:13
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "السيد جعفر الموسوي,طارق عبده طه,Mohamed SAAD محمد سعد"
+
+#: rc.cpp:14
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mosawi@arabeyes.org,metehyi@free.fr"
+
+#: slman.cpp:225
+msgid "Temporary Collection"
+msgstr "مجموعة مؤقتة"
+
+#: instrname.i18n:6
+msgid "Acoustic Grand Piano"
+msgstr "بيانو صوتي مبهج"
+
+#: instrname.i18n:7
+msgid "Bright Acoustic Piano"
+msgstr "بيانو صوتي ساطع"
+
+#: instrname.i18n:8
+msgid "Electric Grand Piano"
+msgstr "بيانو صوتي كهربي"
+
+#: instrname.i18n:9
+msgid "Honky-Tonk"
+msgstr "هونكي-تونك"
+
+#: instrname.i18n:10
+#, fuzzy
+msgid "Rhodes Piano"
+msgstr "رودس البيانو"
+
+#: instrname.i18n:11
+msgid "Chorused Piano"
+msgstr "بيانو أغنية جماعية"
+
+#: instrname.i18n:12
+msgid "Harpsichord"
+msgstr "هاربسيكورد"
+
+#: instrname.i18n:13
+msgid "Clavinet"
+msgstr ""
+
+#: instrname.i18n:14
+#, fuzzy
+msgid "Celesta"
+msgstr "سيليستا"
+
+#: instrname.i18n:15
+msgid "Glockenspiel"
+msgstr ""
+
+#: instrname.i18n:16
+msgid "Music Box"
+msgstr "صندوق موسيقى"
+
+#: instrname.i18n:17
+#, fuzzy
+msgid "Vibraphone"
+msgstr "الفيبرافون"
+
+#: instrname.i18n:18
+#, fuzzy
+msgid "Marimba"
+msgstr "ماريمبا"
+
+#: instrname.i18n:19
+#, fuzzy
+msgid "Xylophone"
+msgstr "الاكسليفون"
+
+#: instrname.i18n:20
+#, fuzzy
+msgid "Tubular Bells"
+msgstr "أنبوبي الأجراس"
+
+#: instrname.i18n:21
+#, fuzzy
+msgid "Dulcimer"
+msgstr "السنطور"
+
+#: instrname.i18n:22
+#, fuzzy
+msgid "Hammond Organ"
+msgstr "هاموند العضو"
+
+#: instrname.i18n:23
+#, fuzzy
+msgid "Percussive Organ"
+msgstr "طرقي العضو"
+
+#: instrname.i18n:24
+msgid "Rock Organ"
+msgstr "أرغن روك"
+
+#: instrname.i18n:25
+msgid "Church Organ"
+msgstr "أرغن كنيسة"
+
+#: instrname.i18n:26
+msgid "Reed Organ"
+msgstr "أرغون Reed"
+
+#: instrname.i18n:27
+msgid "Accordion"
+msgstr "أكورديون"
+
+#: instrname.i18n:28
+msgid "Harmonica"
+msgstr "هارمونيكا"
+
+#: instrname.i18n:29
+#, fuzzy
+msgid "Tango Accordion"
+msgstr "تانجو أكورديون"
+
+#: instrname.i18n:30
+#, fuzzy
+msgid "Acoustic Guitar (Nylon)"
+msgstr "سمعي القيثارة النايلون"
+
+#: instrname.i18n:31
+#, fuzzy
+msgid "Acoustic Guitar (Steel)"
+msgstr "سمعي القيثارة الفولاذ"
+
+#: instrname.i18n:32
+msgid "Electric Guitar (Jazz)"
+msgstr "غيتار كهربي (جاز)"
+
+#: instrname.i18n:33
+msgid "Electric Guitar (Clean)"
+msgstr "غيتار كهربي (نظيف)"
+
+#: instrname.i18n:34
+msgid "Electric Guitar (Muted)"
+msgstr "غيتار كهربي (صامت)"
+
+#: instrname.i18n:35
+#, fuzzy
+msgid "Overdriven Guitar"
+msgstr "القيثارة"
+
+#: instrname.i18n:36
+#, fuzzy
+msgid "Distortion Guitar"
+msgstr "التشويه القيثارة"
+
+#: instrname.i18n:37
+#, fuzzy
+msgid "Guitar Harmonics"
+msgstr "القيثارة التوافقيات"
+
+#: instrname.i18n:38
+#, fuzzy
+msgid "Acoustic Bass"
+msgstr "سمعي باس"
+
+#: instrname.i18n:39
+#, fuzzy
+msgid "Electric Bass (Finger)"
+msgstr "كهربائي باس اصبع"
+
+#: instrname.i18n:40
+#, fuzzy
+msgid "Electric Bass (Pick)"
+msgstr "كهربائي باس الإختيار"
+
+#: instrname.i18n:41
+#, fuzzy
+msgid "Fretless Bass"
+msgstr "باس"
+
+#: instrname.i18n:42
+#, fuzzy
+msgid "Slap Bass 1"
+msgstr "الصفعة باس 1"
+
+#: instrname.i18n:43
+#, fuzzy
+msgid "Slap Bass 2"
+msgstr "الصفعة باس 2"
+
+#: instrname.i18n:44
+#, fuzzy
+msgid "Synth Bass 1"
+msgstr "موالفة باس 1"
+
+#: instrname.i18n:45
+#, fuzzy
+msgid "Synth Bass 2"
+msgstr "موالفة باس 2"
+
+#: instrname.i18n:46
+#, fuzzy
+msgid "Violin"
+msgstr "الكمان"
+
+#: instrname.i18n:47
+#, fuzzy
+msgid "Viola"
+msgstr "الكمان"
+
+#: instrname.i18n:48
+#, fuzzy
+msgid "Cello"
+msgstr "التشيلو"
+
+#: instrname.i18n:49
+#, fuzzy
+msgid "Contrabass"
+msgstr "كونتراباس"
+
+#: instrname.i18n:50
+msgid "Tremolo Strings"
+msgstr "Tremolo سلاسل"
+
+#: instrname.i18n:51
+msgid "Pizzicato Strings"
+msgstr "Pizzicato سلاسل"
+
+#: instrname.i18n:52
+#, fuzzy
+msgid "Orchestral Harp"
+msgstr "أوركسترالي القيثارة"
+
+#: instrname.i18n:53
+#, fuzzy
+msgid "Timpani"
+msgstr "الطبول"
+
+#: instrname.i18n:54
+#, fuzzy
+msgid "String Ensemble 1"
+msgstr "سلسلة المجموعة 1"
+
+#: instrname.i18n:55
+#, fuzzy
+msgid "String Ensemble 2"
+msgstr "سلسلة المجموعة 2"
+
+#: instrname.i18n:56
+#, fuzzy
+msgid "Synth Strings 1"
+msgstr "موالفة سلاسل نصية 1"
+
+#: instrname.i18n:57
+#, fuzzy
+msgid "Synth Strings 2"
+msgstr "موالفة سلاسل نصية 2"
+
+#: instrname.i18n:58
+#, fuzzy
+msgid "Choir Aahs"
+msgstr "الجوقة"
+
+#: instrname.i18n:59
+#, fuzzy
+msgid "Voice Oohs"
+msgstr "صوت"
+
+#: instrname.i18n:60
+#, fuzzy
+msgid "Synth Voice"
+msgstr "موالفة صوت"
+
+#: instrname.i18n:61
+#, fuzzy
+msgid "Orchestra Hit"
+msgstr "الأوركسترا نجاح"
+
+#: instrname.i18n:62
+#, fuzzy
+msgid "Trumpet"
+msgstr "البوق"
+
+#: instrname.i18n:63
+#, fuzzy
+msgid "Trombone"
+msgstr "الترومبون"
+
+#: instrname.i18n:64
+#, fuzzy
+msgid "Tuba"
+msgstr "البوق"
+
+#: instrname.i18n:65
+#, fuzzy
+msgid "Muted Trumpet"
+msgstr "صامت البوق"
+
+#: instrname.i18n:66
+#, fuzzy
+msgid "French Horn"
+msgstr "فرنسي القرن"
+
+#: instrname.i18n:67
+#, fuzzy
+msgid "Brass Section"
+msgstr "النّحاس الأصفر مقطع"
+
+#: instrname.i18n:68
+#, fuzzy
+msgid "Synth Brass 1"
+msgstr "موالفة النّحاس الأصفر 1"
+
+#: instrname.i18n:69
+#, fuzzy
+msgid "Synth Brass 2"
+msgstr "موالفة النّحاس الأصفر 2"
+
+#: instrname.i18n:70
+#, fuzzy
+msgid "Soprano Sax"
+msgstr "السوبرانو ساكس"
+
+#: instrname.i18n:71
+#, fuzzy
+msgid "Alto Sax"
+msgstr "الألتو ساكس"
+
+#: instrname.i18n:72
+#, fuzzy
+msgid "Tenor Sax"
+msgstr "الفحوى ساكس"
+
+#: instrname.i18n:73
+#, fuzzy
+msgid "Baritone Sax"
+msgstr "الباريتون ساكس"
+
+#: instrname.i18n:74
+#, fuzzy
+msgid "Oboe"
+msgstr "المزمار"
+
+#: instrname.i18n:75
+#, fuzzy
+msgid "English Horn"
+msgstr "إنجليزي القرن"
+
+#: instrname.i18n:76
+#, fuzzy
+msgid "Bassoon"
+msgstr "الباسوون"
+
+#: instrname.i18n:77
+#, fuzzy
+msgid "Clarinet"
+msgstr "الكلارينت"
+
+#: instrname.i18n:78
+#, fuzzy
+msgid "Piccolo"
+msgstr "الناي"
+
+#: instrname.i18n:79
+#, fuzzy
+msgid "Flute"
+msgstr "الناي"
+
+#: instrname.i18n:80
+msgid "Recorder"
+msgstr "مسجل"
+
+#: instrname.i18n:81
+#, fuzzy
+msgid "Pan Flute"
+msgstr "Pan الناي"
+
+#: instrname.i18n:82
+#, fuzzy
+msgid "Blown Bottle"
+msgstr "هبّ الزّجاجة"
+
+#: instrname.i18n:83
+msgid "Shakuhachi"
+msgstr ""
+
+#: instrname.i18n:84
+#, fuzzy
+msgid "Whistle"
+msgstr "الصافرة"
+
+#: instrname.i18n:85
+#, fuzzy
+msgid "Ocarina"
+msgstr "الأكرينا - آلة نفخ بلاستيكيّة"
+
+#: instrname.i18n:86
+#, fuzzy
+msgid "Lead 1 - Square Wave"
+msgstr "التقدم مربع موجي"
+
+#: instrname.i18n:87
+#, fuzzy
+msgid "Lead 2 - Saw Tooth"
+msgstr "التقدم المنشار السنّ"
+
+#: instrname.i18n:88
+#, fuzzy
+msgid "Lead 3 - Calliope"
+msgstr "التقدم إلهام الشعر الملحمي"
+
+#: instrname.i18n:89
+#, fuzzy
+msgid "Lead 4 - Chiflead"
+msgstr "التقدم"
+
+#: instrname.i18n:90
+#, fuzzy
+msgid "Lead 5 - Charang"
+msgstr "التقدم"
+
+#: instrname.i18n:91
+msgid "Lead 6 - Voice"
+msgstr "Lead 6 - صوت"
+
+#: instrname.i18n:92
+#, fuzzy
+msgid "Lead 7 - Fifths"
+msgstr "التقدم الأخماس"
+
+#: instrname.i18n:93
+#, fuzzy
+msgid "Lead 8 - Bass+Lead"
+msgstr "التقدم باس التقدم"
+
+#: instrname.i18n:94
+#, fuzzy
+msgid "Pad 1 - New Age"
+msgstr "الوسادة جديد العمر"
+
+#: instrname.i18n:95
+#, fuzzy
+msgid "Pad 2 - Warm"
+msgstr "الوسادة دافئ"
+
+#: instrname.i18n:96
+#, fuzzy
+msgid "Pad 3 - Polysynth"
+msgstr "الوسادة"
+
+#: instrname.i18n:97
+#, fuzzy
+msgid "Pad 4 - Choir"
+msgstr "الوسادة الجوقة"
+
+#: instrname.i18n:98
+#, fuzzy
+msgid "Pad 5 - Bow"
+msgstr "الوسادة الانحناءة"
+
+#: instrname.i18n:99
+msgid "Pad 6 - Metallic"
+msgstr "Pad 6 - معدني"
+
+#: instrname.i18n:100
+msgid "Pad 7 - Halo"
+msgstr "Pad 7 - الهالة"
+
+#: instrname.i18n:101
+#, fuzzy
+msgid "Pad 8 - Sweep"
+msgstr "الوسادة التفتيش"
+
+#: instrname.i18n:102
+msgid "FX 1 - Rain"
+msgstr "FX 1 - المطر"
+
+#: instrname.i18n:103
+#, fuzzy
+msgid "FX 2 - Soundtrack"
+msgstr "معزوفة موسيقية"
+
+#: instrname.i18n:104
+msgid "FX 3 - Crystal"
+msgstr "FX 3 - البلّور"
+
+#: instrname.i18n:105
+#, fuzzy
+msgid "FX 4 - Atmosphere"
+msgstr "الجوّ"
+
+#: instrname.i18n:106
+#, fuzzy
+msgid "FX 5 - Brightness"
+msgstr "الإضاءة"
+
+#: instrname.i18n:107
+msgid "FX 6 - Goblins"
+msgstr ""
+
+#: instrname.i18n:108
+msgid "FX 7 - Echoes"
+msgstr "FX 7 - أصداء"
+
+#: instrname.i18n:109
+#, fuzzy
+msgid "FX 8 - Sci-fi"
+msgstr "إختصار كلمة عِلم"
+
+#: instrname.i18n:110
+msgid "Sitar"
+msgstr "السيتار"
+
+#: instrname.i18n:111
+#, fuzzy
+msgid "Banjo"
+msgstr "البانجو"
+
+#: instrname.i18n:112
+msgid "Shamisen"
+msgstr ""
+
+#: instrname.i18n:113
+msgid "Koto"
+msgstr ""
+
+#: instrname.i18n:114
+msgid "Kalimba"
+msgstr ""
+
+#: instrname.i18n:115
+#, fuzzy
+msgid "Bagpipe"
+msgstr "مزماري"
+
+#: instrname.i18n:116
+#, fuzzy
+msgid "Fiddle"
+msgstr "الحيلة"
+
+#: instrname.i18n:117
+msgid "Shannai"
+msgstr ""
+
+#: instrname.i18n:118
+#, fuzzy
+msgid "Tinkle Bell"
+msgstr "الرنين الجرس"
+
+#: instrname.i18n:119
+msgid "Agogo"
+msgstr ""
+
+#: instrname.i18n:120
+msgid "Steel Drum"
+msgstr "طبل فلذي"
+
+#: instrname.i18n:121
+#, fuzzy
+msgid "Wook Block"
+msgstr "منع"
+
+#: instrname.i18n:122
+msgid "Taiko Drum"
+msgstr "طبل Taiko"
+
+#: instrname.i18n:123
+#, fuzzy
+msgid "Melodic Tom"
+msgstr "لحني توم"
+
+#: instrname.i18n:124
+#, fuzzy
+msgid "Synth Drum"
+msgstr "موالفة الطبل"
+
+#: instrname.i18n:125
+#, fuzzy
+msgid "Reverse Cymbal"
+msgstr "عكس الصنج النحاسي"
+
+#: instrname.i18n:126
+#, fuzzy
+msgid "Guitar Fret Noise"
+msgstr "القيثارة الحنق نويْز"
+
+#: instrname.i18n:127
+#, fuzzy
+msgid "Breath Noise"
+msgstr "النّفس نويْز"
+
+#: instrname.i18n:128
+msgid "Seashore"
+msgstr "شاطئ البحر"
+
+#: instrname.i18n:129
+msgid "Bird Tweet"
+msgstr "زقزقة طائر"
+
+#: instrname.i18n:130
+msgid "Telephone"
+msgstr "هاتف"
+
+#: instrname.i18n:131
+msgid "Helicopter"
+msgstr "مروحية"
+
+#: instrname.i18n:132
+msgid "Applause"
+msgstr "تصفيق"
+
+#: instrname.i18n:133
+msgid "Gunshot"
+msgstr "إطلاق رصاصة"

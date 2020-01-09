@@ -1,0 +1,43 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="org.kde.KMid">
+    <method name="play"/>
+    <method name="pause"/>
+    <method name="stop"/>
+    <method name="rewind"/>
+    <method name="forward"/>
+    <method name="prevSong"/>
+    <method name="nextSong"/>
+    <method name="seek">
+      <arg name="ms" type="i" direction="in"/>
+    </method>
+    <method name="setSongLoop">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+    <method name="setVolume">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+    <method name="setTempo">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+    <method name="setSongEncoding">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+    <method name="setLyricEvents">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+    <method name="setCurrentSong">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+    <method name="setActiveCollection">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+    <method name="setCollectionPlayMode">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+    <method name="setMidiDevice">
+      <arg name="i" type="i" direction="in"/>
+    </method>
+  </interface>
+</node>
